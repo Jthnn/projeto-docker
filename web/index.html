@@ -1,32 +1,34 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Teste de Classificador</title>
+        <title>Sistema de classificação de texto</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     </head>
     <body>
         <div class="container">
 
             <div class="row justify-content-md-center">
-                <div class="form-group">
-                    <label class="control-label">Clique para verificar a precisão</label>
-         
+                <div class="col col-lg-6 text-center border border-light p-5">
+                    <p class="h4 mb-4">Sistema de classificação de texto</p>
                 
-                      <button class="btn btn-primary btn-lg" type="button" onclick="returnValue()">Verificar</button>
-        
+                    <button class="btn btn-primary btn-lg" type="button" onclick="returnValue()">Verificar</button>
+                      
                 </div>
                 <span>
                     <p id="precisao"></p>
                 </span>
         </div>
         	
-        <script>
-            function returnValue() {
-                document.getElementById("precisao").setAttribute("class", "btn btn-default disabled btn-lg");
-                document.getElementById("precisao").innerHTML = "Precisão: " + (precisao) + "%";
-                console.log(precisao);
-            }
-        </script>
+                    <script>
+                        function returnValue() {
+                            document.getElementById("precisao").setAttribute("class", "btn btn-default disabled btn-lg");
+                            document.getElementById("precisao").innerHTML = "Precisão: " + (precisao) + "%";
+                            console.log(precisao);
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
 
     </body>
 </html>
