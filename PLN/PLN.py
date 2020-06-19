@@ -15,8 +15,6 @@ df.tail()
 
 x_train,x_test,y_train,y_test=train_test_split(df['noticia'], df['label'], test_size=0.25, random_state=42)
 
-#parser monosintático
-#pré-processamento de dados
 tfidf_vectorizer = TfidfVectorizer(stop_words=stopwords.words('portuguese'),
         analyzer='word',
         ngram_range=(1, 1),
