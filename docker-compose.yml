@@ -17,6 +17,8 @@ services:
     volumes: 
       - ./PLN:/PLN
       - ./web:/usr/share/nginx/html
+    environment:
+      - PYTHONUNBUFFERED=0
     working_dir: /PLN
     command: bash ./PLN.sh
     networks: 

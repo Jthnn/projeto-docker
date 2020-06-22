@@ -30,5 +30,7 @@ rf.fit(tfidf_train,y_train)
 
 y_pred = rf.predict(tfidf_test)
 score = accuracy_score(y_test,y_pred)
-#print(f'Accuracy: {round(score*100,2)}%')
-precisao = {round(score*100,2)}
+#print(f'Precisão: {round(score*100,2)}%')
+precisao = round(score*100,2)
+print(f'Precisão: {precisao}%')
+
