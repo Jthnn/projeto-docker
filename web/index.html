@@ -1,4 +1,6 @@
 <html>
+    <? echo '<script type="javascript"> var precisao = '<PLN.py>'</script>' ?>
+
     <head>
         <meta charset="utf-8">
         <title>Sistema de classificação de texto</title>
@@ -10,7 +12,6 @@
             <div class="row justify-content-md-center">
                 <div class="col col-lg-6 text-center border border-light p-5">
                     <p class="h4 mb-4">Sistema de classificação de texto</p>
-                
                     <button class="btn btn-primary btn-lg" type="button" onclick="returnValue()">Verificar</button>
                       
                 </div>
@@ -18,7 +19,6 @@
                     <p id="precisao"></p>
                 </span>
         </div>
-        	
                     <script>
                         function returnValue() {
                             document.getElementById("precisao").setAttribute("class", "btn btn-default disabled btn-lg");

@@ -16,6 +16,7 @@ services:
     image: python:3.7.2
     volumes: 
       - ./PLN:/PLN
+      - ./web:/usr/share/nginx/html
     working_dir: /PLN
     command: bash ./PLN.sh
     networks: 
