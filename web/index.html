@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sistema de classificação de texto</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="row justify-content-md-center">
+                <div class="col col-lg-6 border border-dark rounded p-5">
+                    <p class="h3 mb-4">Identificação de Fake News com classificação de texto</p>
+                    <h5>Contexto</h5>
+                    <p>A democratização da internet trouxe à tona características como a produção de informação desenfreada. Ambientes virtuais como redes sociais tornaram-se prósperos à disseminação de notícias falsas devido a facilidade de compartilhamento de informação e dificuldade em identificar a veracidade de um grande volume de dados.</p>
+                    <h5>Experimento</h5>
+                    <p>Esta aplicação é um experimento para trabalhar com técnicas de classificação de texto vinculada à outras atividades acadêmicas, como o próprio projeto de mestrado.</p>
+                    <p>O conceito de conteinerização em Docker contribui para pensar futuros algoritmos de maior complexidade e utilizar este experimento como uma parte modular deste projeto.</p>
+                    <h5>Conjunto de dados</h5>
+                    <p>Para esta aplicação, foi utilizado o dataset <a href="https://github.com/ViniciusNunes0/SIRENE-news">SIRENE-news</a> composto por 4.742 notícias.</p>          
+                  
+                    <button class="btn btn-primary my-4 btn-block" type="button" onclick="returnValue()">Verificar</button>
+                      
+                </div>
+                <span>
+                    <p id="precisao"></p>
+                </span>
+        </div>
+                    <script>
+                        function returnValue() {
+                            document.getElementById("precisao").setAttribute("class", "btn btn-default disabled btn-lg");
+                            document.getElementById("precisao").innerHTML = "Precisão: " + (precisao) + "%";
+                            console.log(precisao);
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
