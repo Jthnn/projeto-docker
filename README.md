@@ -14,14 +14,10 @@
 <p>1. Abrir um shell de comando</p>
 <p>2. Acessar a pasta raíz da aplicação</p>
 <p>3. Executar o comando: docker-compose up</p>
-<img
-src=“images/2.classificador.jpg”
-raw=true
-alt=“Subject Pronouns”
-style=“margin-right: 10px;”
-/>
+<img src=images/1.docker.jpg/>
 <p> </p>
 <p>Conjunto de dados</p>
+![Alt text](images/1.docker.jpg?raw=true "Title")
 <p>Resultados</p>
 <p>Classificador - Random Forest</p>
 <p> </p>
