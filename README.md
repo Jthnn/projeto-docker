@@ -14,7 +14,7 @@
 <p>1. Abrir um shell de comando</p>
 <p>2. Acessar a pasta raíz da aplicação</p>
 <p>3. Executar o comando: docker-compose up</p>
-<img src=“imagens/1.docker.png?raw=true” alt=“Subject Pronouns” style=“margin-right: 10px;” /> ![teste](https://github.com/Jthnn/projeto-docker/blob/master/imagens/2.classificador.jpg)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 <p> </p>
 <p>Conjunto de dados</p>
 <p>Resultados</p>
