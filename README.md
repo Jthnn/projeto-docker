@@ -15,7 +15,7 @@
 <p>2. Acessar a pasta raíz da aplicação</p>
 <p>3. Executar o comando: docker-compose up</p>
 <img
-src=“https://raw.githubusercontent.com/Jthnn/projeto-docker/master/imagens/2.classificador.jpg”
+src=“images/2.classificador.jpg”
 raw=true
 alt=“Subject Pronouns”
 style=“margin-right: 10px;”
