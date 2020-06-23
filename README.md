@@ -15,9 +15,10 @@
 <p>2. Acessar a pasta raíz da aplicação</p>
 <p>3. Executar o comando: docker-compose up</p>
 <img src=images/1.docker.jpg/>
+<p>4. O resultado da precisão será emitido</p>
+<img src=images/2.classificador.jpg/>
 <p> </p>
 <p>Conjunto de dados</p>
-![Alt text](images/1.docker.jpg?raw=true "Title")
 <p>Resultados</p>
 <p>Classificador - Random Forest</p>
 <p> </p>
