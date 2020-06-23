@@ -4,6 +4,8 @@
 <h3>Experimento</h3>
 <p>Esta aplicação é um experimento para trabalhar com técnicas de classificação de texto vinculada à outras atividades acadêmicas, como o próprio projeto de mestrado.</p>
 <p>O conceito de conteinerização em Docker contribui para pensar futuros algoritmos de maior complexidade e utilizar este experimento como uma parte modular deste projeto.</p>
+<h3>Conjunto de dados</h3>
+<p>Para esta aplicação, foi utilizado o dataset <a href="https://github.com/ViniciusNunes0/SIRENE-news">SIRENE-news</a> composto por 4.742 notícias.</p>
 <h3>Pré-requisitos</h3>
 <p>É necessário ter a plataforma <a href="https://www.docker.com/products/docker-desktop" target="_blank" rel="noopener noreferrer">Docker</a> instalada em sua máquina.</p>
 <h3>Bibliotecas Instaladas</h3>
@@ -17,8 +19,6 @@
 <p><img src="images/1.docker.jpg/" /></p>
 <p>4. O resultado da precisão será emitido</p>
 <p><img src="images/2.classificador.jpg/" /></p>
-<h3>Conjunto de dados</h3>
-<p>Para esta aplicação, foi utilizado o dataset <a href="https://github.com/ViniciusNunes0/SIRENE-news">SIRENE-news</a> composto por 4.742 notícias.</p>
 <h3>Resultados e Discussão</h3>
 <p>Utilizando o classificador Random Forest, foi possível obter uma precisão de 97.81% na classificação de notícias entre falsas e verdadeiras. Serão incorporadas mais técnicas de Processamento de Linguagem Natural ao código Python, este código servirá como um módulo para incorporar um algoritmo classificador mais robusto.</p>
 <h3>Observação</h3>
