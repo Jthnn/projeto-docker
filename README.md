@@ -17,11 +17,10 @@
 <p><img src="images/1.docker.jpg/" /></p>
 <p>4. O resultado da precisão será emitido</p>
 <p><img src="images/2.classificador.jpg/" /></p>
-<p> </p>
 <h3>Conjunto de dados</h3>
 <p>Para esta aplicação, foi utilizado o dataset <a href="https://github.com/ViniciusNunes0/SIRENE-news">SIRENE-news</a> composto por 4.742 notícias.</p>
 <h3>Resultados e Discussão</h3>
-<p>Utilizando o classificador Random Forest, foi possível obter uma precisão de 97.81% na classificação de notícias entre falsas e verdadeiras. Serão incorporadas mais técnicas de Processamento de Linguagem Natural ao código Python, este servirá como um módulo para incorporar um algoritmo classificador mais robusto.</p>
+<p>Utilizando o classificador Random Forest, foi possível obter uma precisão de 97.81% na classificação de notícias entre falsas e verdadeiras. Serão incorporadas mais técnicas de Processamento de Linguagem Natural ao código Python, este código servirá como um módulo para incorporar um algoritmo classificador mais robusto.</p>
 <h3>Observação</h3>
 <p>A proposta de exibir a variável "Precisão" na página em HTML não foi concretizada</p>
 <p> </p>
